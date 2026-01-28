@@ -20,13 +20,10 @@ remplacer des opérations lourdes par des équivalents moins coûteux (x**2 -> x
 Simplification d’expressions booléennes (a and True → a)
 Ajouter des __slots__ pour les class
 Supprimer le typage
-Suppresions des docstrings
 remplacer les if ... is not None: par if ...: quand c est possible
 passer de list.pop(index) -> del list[index] quand c est possible
 remplacer le type bool par des int
 faire en sorte qu'il ne prenne pas en charge les inputs
-retirer lignes en doubles
-retirer doc
 
 stop la compilation si el code ne s arrete pas ou si une erreur ou assert est rencontrer
 
