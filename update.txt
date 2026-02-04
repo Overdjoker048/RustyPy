@@ -1,7 +1,6 @@
 Optimisations d’import (import module → from module import nom)
 Suppression de code mort
 fusionné les boucles quand c est possibles
-Suppression des sauts de ligne inutiles
 Remplacement de la vectorisation par le module NumPy
 Pré-calculer / pré-concaténer ce qui peut l’être
 propagations des constantes
@@ -34,3 +33,5 @@ faire en sorte que le compilateur lance le programme apres la compilations
 
 en .exe avec le logo, precompileravec le meme programme
 PyBuilder 1.0
+
+supprimer les docs apres les fonction que si doc ets activer
