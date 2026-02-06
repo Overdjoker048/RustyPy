@@ -76,7 +76,7 @@ for ln, data in lines.items():
         removed += len(data["tokens"])
 
 for ln in sorted(filtered.keys()):
-    indent = "    " * filtered[ln]["indent"]
+    indent = "\t" * filtered[ln]["indent"]
     colored_tokens = [c for _, c in filtered[ln]["tokens"]]
     stdout.write(f"[{ln:<2}] {indent}{' '.join(colored_tokens)}\n")
 
@@ -84,6 +84,7 @@ stdout.write(f"Removed: {removed}\nConserve: {len(tokens) - removed}\nAll: {len(
 
 #reconvertir en code
 #convertir les print en sys.write.stdout et formatter l entré
+#ajouter colloration pour stderr
 #degager le typage et docstrings et valeur inutile
 #supprimer tout ce qui e entre -> et :
 #supprimer tout ce qui se trouve apres un : jusqu'au prochaine operateur

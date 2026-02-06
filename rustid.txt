@@ -1,0 +1,4 @@
+type de base de python
+tableau de bool
+type pour file utilisant mmap
+fonction stdin stderr et stdout avec formatage (f"\033[31m{string}\033m[0m\n")
