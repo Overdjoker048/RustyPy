@@ -265,12 +265,6 @@ Depending on the program type:
 
 ---
 
-## 📜 Philosophy
-
-> *"Write Python as usual, run it as if it were Rust."*
-
----
-
 ## 🤝 Contributions
 
 Ideas, benchmarks, and feedback are welcome.
